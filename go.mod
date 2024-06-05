@@ -1,4 +1,4 @@
-module github.com/OpenFunction/functions-framework-go
+module github.com/Mershab99/functions-framework-go
 
 go 1.17
 
