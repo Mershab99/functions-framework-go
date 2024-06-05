@@ -7,8 +7,8 @@ import (
 	"log"
 	"net/http"
 
-	ofctx "github.com/OpenFunction/functions-framework-go/context"
-	"github.com/OpenFunction/functions-framework-go/internal/registry"
+	ofctx "github.com/Mershab99/functions-framework-go/context"
+	"github.com/Mershab99/functions-framework-go/internal/registry"
 	cloudevents "github.com/cloudevents/sdk-go/v2"
 )
 

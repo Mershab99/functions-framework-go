@@ -17,9 +17,9 @@ import (
 	"github.com/dapr/go-sdk/service/common"
 	"github.com/stretchr/testify/assert"
 
-	ofctx "github.com/OpenFunction/functions-framework-go/context"
-	"github.com/OpenFunction/functions-framework-go/functions"
-	"github.com/OpenFunction/functions-framework-go/runtime/async"
+	ofctx "github.com/Mershab99/functions-framework-go/context"
+	"github.com/Mershab99/functions-framework-go/functions"
+	"github.com/Mershab99/functions-framework-go/runtime/async"
 )
 
 func fakeHTTPFunction(w http.ResponseWriter, r *http.Request) {

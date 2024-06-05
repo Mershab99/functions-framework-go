@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	ofctx "github.com/OpenFunction/functions-framework-go/context"
-	"github.com/OpenFunction/functions-framework-go/functions"
+	ofctx "github.com/Mershab99/functions-framework-go/context"
+	"github.com/Mershab99/functions-framework-go/functions"
 	cloudevents "github.com/cloudevents/sdk-go/v2"
 	"k8s.io/klog/v2"
 )

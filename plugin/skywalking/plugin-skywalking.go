@@ -8,8 +8,8 @@ import (
 	"github.com/SkyAPM/go2sky/reporter"
 	"k8s.io/klog/v2"
 
-	ofctx "github.com/OpenFunction/functions-framework-go/context"
-	"github.com/OpenFunction/functions-framework-go/plugin"
+	ofctx "github.com/Mershab99/functions-framework-go/context"
+	"github.com/Mershab99/functions-framework-go/plugin"
 
 	agentv3 "skywalking.apache.org/repo/goapi/collect/language/agent/v3"
 )

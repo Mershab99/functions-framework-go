@@ -6,10 +6,10 @@ import (
 
 	"k8s.io/klog/v2"
 
-	ofctx "github.com/OpenFunction/functions-framework-go/context"
-	"github.com/OpenFunction/functions-framework-go/framework"
-	"github.com/OpenFunction/functions-framework-go/plugin"
-	"github.com/OpenFunction/functions-framework-go/plugin/skywalking"
+	ofctx "github.com/Mershab99/functions-framework-go/context"
+	"github.com/Mershab99/functions-framework-go/framework"
+	"github.com/Mershab99/functions-framework-go/plugin"
+	"github.com/Mershab99/functions-framework-go/plugin/skywalking"
 )
 
 func pubsubFunction(ofCtx ofctx.Context, in []byte) (ofctx.Out, error) {

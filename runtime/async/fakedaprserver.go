@@ -26,7 +26,7 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/test/bufconn"
 
-	"github.com/OpenFunction/functions-framework-go/runtime/async/internal"
+	"github.com/Mershab99/functions-framework-go/runtime/async/internal"
 )
 
 // FakeServer is the gRPC service implementation for Dapr.

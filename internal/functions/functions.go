@@ -8,15 +8,15 @@ import (
 	"regexp"
 	"strings"
 
-	ofctx "github.com/OpenFunction/functions-framework-go/context"
+	ofctx "github.com/Mershab99/functions-framework-go/context"
 	cloudevents "github.com/cloudevents/sdk-go/v2"
 )
 
 const (
-	HTTPType         = "http"
-	CloudEventType   = "cloudevent"
-	OpenFunctionType = "openfunction"
-	defaultPath      = "/"
+	HTTPType            = "http"
+	CloudEventType      = "cloudevent"
+	OpenFunctionType    = "openfunction"
+	defaultPath         = "/"
 	functionNamePattern = "^[A-Za-z](?:[-_A-Za-z0-9]{0,61}[A-Za-z0-9])?$"
 )
 
@@ -149,9 +149,9 @@ func isValidFunctionName(name string) bool {
 //
 // For example:
 //
-//     WithFunctionPath("/products/")
-//     WithFunctionPath("/products/{key}")
-//     WithFunctionPath("/articles/{category}/{id:[0-9]+}")
+//	WithFunctionPath("/products/")
+//	WithFunctionPath("/products/{key}")
+//	WithFunctionPath("/articles/{category}/{id:[0-9]+}")
 //
 // Variable names must be unique in a given route. They can be retrieved
 // calling ofnctx.Vars(request).

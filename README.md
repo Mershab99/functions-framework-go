@@ -15,7 +15,7 @@ To learn more about the functions-framework criteria, refer to the following lin
 
 ```go
 require (
-	github.com/OpenFunction/functions-framework-go <version>
+	github.com/Mershab99/functions-framework-go <version>
 )
 ```
 

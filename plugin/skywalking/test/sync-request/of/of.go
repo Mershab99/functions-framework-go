@@ -12,9 +12,9 @@ import (
 	go2skyHTTP "github.com/SkyAPM/go2sky/plugins/http"
 	"k8s.io/klog/v2"
 
-	"github.com/OpenFunction/functions-framework-go/framework"
-	"github.com/OpenFunction/functions-framework-go/plugin"
-	"github.com/OpenFunction/functions-framework-go/plugin/skywalking"
+	"github.com/Mershab99/functions-framework-go/framework"
+	"github.com/Mershab99/functions-framework-go/plugin"
+	"github.com/Mershab99/functions-framework-go/plugin/skywalking"
 )
 
 var (

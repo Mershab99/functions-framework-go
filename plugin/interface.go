@@ -1,7 +1,7 @@
 package plugin
 
 import (
-	ofctx "github.com/OpenFunction/functions-framework-go/context"
+	ofctx "github.com/Mershab99/functions-framework-go/context"
 )
 
 type Metadata interface {

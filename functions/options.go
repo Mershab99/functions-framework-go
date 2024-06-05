@@ -1,7 +1,7 @@
 package functions
 
 import (
-	"github.com/OpenFunction/functions-framework-go/internal/functions"
+	"github.com/Mershab99/functions-framework-go/internal/functions"
 )
 
 type FunctionOption = functions.FunctionOption

@@ -6,7 +6,7 @@ import (
 
 	"github.com/SkyAPM/go2sky"
 
-	ofctx "github.com/OpenFunction/functions-framework-go/context"
+	ofctx "github.com/Mershab99/functions-framework-go/context"
 )
 
 func preSyncRequestLogic(ofCtx ofctx.RuntimeContext, tracer *go2sky.Tracer) error {

@@ -13,10 +13,10 @@ import (
 	"github.com/go-chi/chi/v5"
 	"k8s.io/klog/v2"
 
-	ofctx "github.com/OpenFunction/functions-framework-go/context"
-	"github.com/OpenFunction/functions-framework-go/internal/functions"
-	"github.com/OpenFunction/functions-framework-go/plugin"
-	"github.com/OpenFunction/functions-framework-go/runtime"
+	ofctx "github.com/Mershab99/functions-framework-go/context"
+	"github.com/Mershab99/functions-framework-go/internal/functions"
+	"github.com/Mershab99/functions-framework-go/plugin"
+	"github.com/Mershab99/functions-framework-go/runtime"
 )
 
 const (
